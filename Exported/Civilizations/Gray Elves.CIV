@@ -1,0 +1,81 @@
+Name:"Gray Elves",
+Category:"Elves",
+Starting Year:2300,
+Color:{
+Hue:.875
+Sat:.25
+}
+Aggression:60
+Strength:70
+Population Density:500
+Growth Rate:40
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:-25
+Max Precipitation:100
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:60
+Slope Importance:20
+Temperature Importance:0
+Precipitation Importance:0
+Elevation Importance:0
+Distance Importance:50
+River Bonus:30
+Sea Bonus:30
+Delta Bonus:30
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Rock
+}
+Relationships:{
+"Goblins":-100,
+"Hobgoblins":-100,
+"Bugbears":-100,
+"Blues":-100,
+
+"Troglodytes":-100,
+"Viletooth Lizardfolk":-100,
+"Blackscale Lizardfolk":-100,
+"Poison Dusk Lizardfolk":-100,
+"Common Kobolds":-100,
+"Jungle Kobolds":-100,
+"Dark Talon Lizardfolk":-100,
+"Desert Kobolds":-100,
+"Shazak Lizardfolk":-100,
+"Arctic Kobolds":-100,
+"Quanak Lizardfolk":-100,
+"Aquatic Kobolds":-100,
+
+"Common Orcs":-200,
+"Jungle Orcs":-200,
+"Desert Orcs":-200,
+"Skraal":-200,
+"Aquatic Orcs":-200,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"High Elves":-100,
+"Drow":-100,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Rhul-thaun Halflings":-100
+
+"Plains Minotaur":-100,
+"Forest Harpies":-100,
+"Arctic Minotaur":-100,
+"Mountain Harpies":-100,
+"Forest Wargen":-100,
+"Plains Wargen":-100,
+}

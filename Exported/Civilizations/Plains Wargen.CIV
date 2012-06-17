@@ -1,0 +1,66 @@
+Name:"Plains Wargen",
+Category:"Bestial",
+Starting Year:3900,
+Color:{
+Hue:.6875
+Sat:.25
+}
+Aggression:25
+Strength:70
+Population Density:250
+Growth Rate:35
+Max Slope:3
+Min Slope:0
+Max Temperature:100
+Min Temperature:25
+Max Precipitation:75
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:50
+Slope Importance:20
+Temperature Importance:20
+Precipitation Importance:20
+Elevation Importance:0
+Distance Importance:30
+River Bonus:10
+Sea Bonus:0
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Common Gnolls":-300,
+"Apaloosa":-500,
+"Forest Gnolls":-300,
+
+"Bretons":100,
+"Nords":100,
+"Imperials":100,
+"Redguard":100,
+"Sand People":100,
+"Sea Dwellers":100,
+
+"Wild Elves":100,
+"Wood Elves":100,
+"High Elves":-100,
+"Drow":-100,
+"Frost Elves":-100,
+"Gray Elves":-100,
+"Sea Elves":-100,
+
+"Plains Centaurs":-100,
+"Forest Centaurs":-100,
+"Plains Minotaur":200,
+"Forest Harpies":100,
+"Arctic Minotaur":200,
+"Mountain Harpies":100,
+"Forest Wargen":500
+}

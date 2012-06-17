@@ -1,0 +1,68 @@
+Name:"Svirfneblin",
+Category:"Gnomes",
+Starting Year:2650,
+Color:{
+Hue:.5
+Sat:.75
+}
+Aggression:20
+Strength:70
+Population Density:1500
+Growth Rate:60
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:0
+Max Precipitation:50
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:192
+Desired Distance:50
+Slope Importance:0
+Temperature Importance:10
+Precipitation Importance:30
+Elevation Importance:40
+Distance Importance:20
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Taiga,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Troglodytes":-500,
+"Common Kobolds":-400,
+"Jungle Kobolds":-400,
+"Desert Kobolds":-400,
+"Arctic Kobolds":-400,
+"Aquatic Kobolds":-400,
+
+"Drow":200,
+
+"Hill Dwarves":100,
+"Mountain Dwarves":100,
+"Savasi":100,
+"Deep Dwarves":300,
+"Duergar":-100,
+
+"Rock Gnomes":500,
+"Forest Gnomes":500,
+
+"Lightfoot Halflings":100,
+"Tallfellow Halflings":100,
+"Rhulisti Halflings":100,
+"Deep Halflings":300,
+"Rhul-thaun Halflings":-100,
+
+"Plains Minotaur":300,
+"Forest Harpies":-100,
+"Arctic Minotaur":300,
+"Mountain Harpies":-100
+}

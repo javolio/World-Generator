@@ -1,0 +1,90 @@
+Name:"Skraal",
+Category:"Orcs",
+Starting Year:3400,
+Color:{
+Hue:.15625
+Sat:.25
+}
+Aggression:90
+Strength:80
+Population Density:1000
+Growth Rate:50
+Max Slope:3
+Min Slope:0
+Max Temperature:25
+Min Temperature:-25
+Max Precipitation:100
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:110
+Slope Importance:10
+Temperature Importance:30
+Precipitation Importance:0
+Elevation Importance:30
+Distance Importance:30
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Common Orcs":100,
+"Jungle Orcs":100,
+"Desert Orcs":100,
+"Aquatic Orcs":100,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"Bretons":-200,
+"Nords":-200,
+"Imperials":-200,
+"Redguard":-600,
+"Sand People":-200,
+"Sea Dwellers":-200,
+
+"Wild Elves":-300,
+"Wood Elves":-300,
+"High Elves":-400,
+"Frost Elves":-500,
+"Gray Elves":-300,
+"Sea Elves":-300,
+
+"Hill Dwarves":-400,
+"Mountain Dwarves":-400,
+"Savasi":-400,
+"Deep Dwarves":-400,
+"Duergar":-400,
+
+"Rock Gnomes":-300,
+"Forest Gnomes":-300,
+"Svirfneblin":-300,
+
+"Lightfoot Halflings":-200,
+"Tallfellow Halflings":-200,
+"Rhulisti Halflings":-200,
+"Deep Halflings":-200,
+"Rhul-thaun Halflings":-200,
+
+"Plains Centaurs":-400,
+"Forest Centaurs":-400,
+"Plains Minotaur":-400,
+"Forest Harpies":-400,
+"Arctic Minotaur":-400,
+"Mountain Harpies":-400,
+"Forest Wargen":-400,
+"Plains Wargen":-400,
+
+"Sprites":-600,
+"Pixies":-600
+}

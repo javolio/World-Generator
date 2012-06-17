@@ -1,0 +1,56 @@
+Name:"Maenads",
+Category:"Aquatic",
+Starting Year:150,
+Color:{
+Hue:.0625
+Sat:.75
+}
+Aggression:25
+Strength:40
+Population Density:750
+Growth Rate:50
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:0
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:127
+Min Elevation:-64
+Desired Distance:50
+Slope Importance:0
+Temperature Importance:20
+Precipitation Importance:0
+Elevation Importance:50
+Distance Importance:30
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Aquatic Kobolds":-100,
+
+"Aquatic Orcs":-100,
+
+"Sea Dwellers":100,
+
+"Sea Elves":100,
+
+"Locathah":100,
+"Merfolk":200,
+"Sahuagin":100,
+
+"Nymphs":100,
+"Nixies":100,
+"LeShay":100
+}

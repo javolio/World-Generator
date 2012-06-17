@@ -1,0 +1,91 @@
+Name:"Aquatic Orcs",
+Category:"Orcs",
+Starting Year:4000,
+Color:{
+Hue:.375
+Sat:.75
+}
+Aggression:80
+Strength:60
+Population Density:750
+Growth Rate:60
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:100
+Max Elevation:127
+Min Elevation:0
+Desired Distance:90
+Slope Importance:0
+Temperature Importance:40
+Precipitation Importance:0
+Elevation Importance:20
+Distance Importance:40
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Goblins":200,
+"Hobgoblins":100,
+"Bugbears":100,
+"Blues":100,
+
+"Troglodytes":-100,
+
+"Common Orcs":200,
+"Jungle Orcs":200,
+"Desert Orcs":200,
+"Skraal":200,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"Bretons":-100,
+"Nords":-100,
+"Imperials":-100,
+"Redguard":-500,
+"Sand People":-100,
+"Sea Dwellers":-200,
+
+"Wild Elves":-300,
+"Wood Elves":-300,
+"High Elves":-500,
+"Drow":-100,
+"Frost Elves":-300,
+"Gray Elves":-300,
+"Sea Elves":-600,
+
+"Hill Dwarves":-200,
+"Mountain Dwarves":-200,
+"Savasi":-200,
+"Deep Dwarves":-200,
+"Duergar":-200,
+
+"Rock Gnomes":-200,
+"Forest Gnomes":-200,
+"Svirfneblin":-200,
+
+"Lightfoot Halflings":-200,
+"Tallfellow Halflings":-200,
+"Rhulisti Halflings":-300,
+"Deep Halflings":-200,
+"Rhul-thaun Halflings":-300,
+
+"Plains Centaurs":-200,
+"Forest Centaurs":-200
+}

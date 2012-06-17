@@ -1,0 +1,95 @@
+Name:"Nords",
+Category:"Humans",
+Starting Year:3050,
+Color:{
+Hue:.625
+Sat:.5
+}
+Aggression:60
+Strength:60
+Population Density:750
+Growth Rate:50
+Max Slope:20
+Min Slope:0
+Max Temperature:50
+Min Temperature:-25
+Max Precipitation:100
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:80
+Slope Importance:0
+Temperature Importance:30
+Precipitation Importance:0
+Elevation Importance:0
+Distance Importance:40
+River Bonus:0
+Sea Bonus:30
+Delta Bonus:30
+Restricted Biomes:{
+Sea,
+River,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Goblins":-300,
+"Hobgoblins":-300,
+"Bugbears":-300,
+"Blues":-300,
+
+"Troglodytes":-200,
+"Viletooth Lizardfolk":-300,
+"Blackscale Lizardfolk":-300,
+"Poison Dusk Lizardfolk":-300,
+"Common Kobolds":-300,
+"Jungle Kobolds":-300,
+"Dark Talon Lizardfolk":-300,
+"Desert Kobolds":-300,
+"Shazak Lizardfolk":-300,
+"Arctic Kobolds":-300,
+"Quanak Lizardfolk":-300,
+"Aquatic Kobolds":-300,
+
+"Bretons":400,
+"Imperials":400,
+"Redguard":400,
+"Sand People":400,
+"Sea Dwellers":400,
+
+"Wild Elves":200,
+"Wood Elves":200,
+"High Elves":200,
+"Frost Elves":400,
+"Sea Elves":200,
+
+"Hill Dwarves":200,
+"Mountain Dwarves":200,
+"Savasi":200,
+"Deep Dwarves":100,
+
+"Rock Gnomes":200,
+"Forest Gnomes":200,
+"Svirfneblin":200,
+
+"Lightfoot Halflings":200,
+"Tallfellow Halflings":200,
+"Rhulisti Halflings":200,
+"Deep Halflings":100,
+"Rhul-thaun Halflings":-100,
+
+"Common Gnolls":-300,
+"Apaloosa":-300,
+"Forest Gnolls":-300,
+
+"Plains Minotaur":-100,
+"Forest Harpies":-100,
+"Arctic Minotaur":-200,
+"Mountain Harpies":-100,
+"Forest Wargen":100,
+"Plains Wargen":100,
+}

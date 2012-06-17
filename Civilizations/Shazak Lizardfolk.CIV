@@ -1,0 +1,50 @@
+Name:"Shazak Lizardfolk",
+Category:"Reptilians",
+Starting Year:2250,
+Color:{
+Hue:.8125
+Sat:.5
+}
+Aggression:20
+Strength:60
+Population Density:750
+Growth Rate:60
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:50
+Max Precipitation:100
+Min Precipitation:25
+Max Elevation:191
+Min Elevation:128
+Desired Distance:60
+Slope Importance:10
+Temperature Importance:20
+Precipitation Importance:30
+Elevation Importance:10
+Distance Importance:20
+River Bonus:10
+Sea Bonus:0
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Rock
+}
+Relationships:{
+"Troglodytes":200,
+"Viletooth Lizardfolk":400,
+"Blackscale Lizardfolk":400,
+"Poison Dusk Lizardfolk":400,
+"Common Kobolds":200,
+"Jungle Kobolds":200,
+"Dark Talon Lizardfolk":400,
+"Desert Kobolds":200,
+"Arctic Kobolds":200,
+"Quanak Lizardfolk":400,
+"Aquatic Kobolds":200,
+}

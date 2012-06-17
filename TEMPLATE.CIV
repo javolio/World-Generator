@@ -1,0 +1,32 @@
+Name:"Nameless",
+Category:"None",
+Starting Year:0,
+Color:{
+Hue:0
+Sat:0
+}
+Aggression:0
+Strength:0
+Population Density:500
+Growth Rate:50
+Max Slope:255
+Min Slope:0
+Max Temperature:125
+Min Temperature:-25
+Max Precipitation:100
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:50
+Slope Importance:0
+Temperature Importance:0
+Precipitation Importance:0
+Elevation Importance:0
+Distance Importance:0
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+}
+Relationships:{
+}

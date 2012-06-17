@@ -1,0 +1,90 @@
+Name:"Duergar",
+Category:"Dwarves",
+Starting Year:2600,
+Color:{
+Hue:.25
+Sat:.25
+}
+Aggression:70
+Strength:60
+Population Density:1000
+Growth Rate:60
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:-25
+Max Precipitation:75
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:128
+Desired Distance:70
+Slope Importance:0
+Temperature Importance:10
+Precipitation Importance:10
+Elevation Importance:50
+Distance Importance:30
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Goblins":-400,
+"Hobgoblins":-400,
+"Bugbears":-400,
+"Blues":-400,
+
+"Viletooth Lizardfolk":-200,
+"Blackscale Lizardfolk":-200,
+"Poison Dusk Lizardfolk":-200,
+"Common Kobolds":-200,
+"Jungle Kobolds":-200,
+"Dark Talon Lizardfolk":-200,
+"Desert Kobolds":-200,
+"Shazak Lizardfolk":-200,
+"Arctic Kobolds":-200,
+"Quanak Lizardfolk":-200,
+"Aquatic Kobolds":-200,
+
+"Common Orcs":-200,
+"Jungle Orcs":-200,
+"Desert Orcs":-200,
+"Skraal":-200,
+"Aquatic Orcs":-200,
+
+"Common Gnolls":-200,
+"Apaloosa":-200,
+"Forest Gnolls":-200,
+
+"Bretons":-400,
+"Nords":-400,
+"Imperials":-400,
+"Redguard":-400,
+"Sand People":-400,
+"Sea Dwellers":-400,
+
+"Wild Elves":-400,
+"Wood Elves":-400,
+"High Elves":-400,
+"Drow":-400,
+"Frost Elves":-400,
+"Gray Elves":-400,
+"Sea Elves":-400,
+
+"Hill Dwarves":-400,
+"Mountain Dwarves":-400,
+"Savasi":-400,
+"Deep Dwarves":-400,
+
+"Nymphs":-300,
+"Dryads":-300,
+"Satyrs":-300,
+"Sprites":-500,
+"Pixies":-500
+}

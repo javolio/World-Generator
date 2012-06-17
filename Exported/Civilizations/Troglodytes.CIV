@@ -1,0 +1,48 @@
+Name:"Troglodytes",
+Category:"Reptilians",
+Starting Year:75,
+Color:{
+Hue:.5625
+Sat:.5
+}
+Aggression:60
+Strength:70
+Population Density:500
+Growth Rate:50
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:-50
+Max Precipitation:100
+Min Precipitation:-50
+Max Elevation:255
+Min Elevation:0
+Desired Distance:60
+Slope Importance:0
+Temperature Importance:30
+Precipitation Importance:20
+Elevation Importance:0
+Distance Importance:50
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Hill Dwarves":-200,
+"Mountain Dwarves":-200,
+"Savasi":-200,
+"Deep Dwarves":-200,
+"Duergar":-200,
+
+"Rock Gnomes":-200,
+"Forest Gnomes":-200,
+"Svirfneblin":-200,
+
+"Deep Halflings":-100,
+}

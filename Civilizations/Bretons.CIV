@@ -1,0 +1,110 @@
+Name:"Bretons",
+Category:"Humans",
+Starting Year:2700,
+Color:{
+Hue:.15625
+Sat:.5
+}
+Aggression:60
+Strength:50
+Population Density:1000
+Growth Rate:60
+Max Slope:4
+Min Slope:0
+Max Temperature:100
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:25
+Max Elevation:255
+Min Elevation:0
+Desired Distance:70
+Slope Importance:10
+Temperature Importance:20
+Precipitation Importance:20
+Elevation Importance:0
+Distance Importance:30
+River Bonus:20
+Sea Bonus:10
+Delta Bonus:20
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Rock
+}
+Relationships:{
+"Goblins":-300,
+"Hobgoblins":-300,
+"Bugbears":-300,
+"Blues":-300,
+
+"Troglodytes":-200,
+"Viletooth Lizardfolk":-300,
+"Blackscale Lizardfolk":-300,
+"Poison Dusk Lizardfolk":-300,
+"Common Kobolds":-300,
+"Jungle Kobolds":-300,
+"Dark Talon Lizardfolk":-300,
+"Desert Kobolds":-300,
+"Shazak Lizardfolk":-300,
+"Arctic Kobolds":-300,
+"Quanak Lizardfolk":-300,
+"Aquatic Kobolds":-300,
+
+"Nords":400,
+"Imperials":400,
+"Redguard":400,
+"Sand People":400,
+"Sea Dwellers":400,
+
+"Wild Elves":300,
+"Wood Elves":300,
+"High Elves":200,
+"Frost Elves":200,
+"Sea Elves":200,
+
+"Hill Dwarves":300,
+"Mountain Dwarves":200,
+"Savasi":200,
+"Deep Dwarves":100,
+
+"Rock Gnomes":200,
+"Forest Gnomes":200,
+"Svirfneblin":100,
+
+"Lightfoot Halflings":200,
+"Tallfellow Halflings":200,
+"Rhulisti Halflings":200,
+"Deep Halflings":100,
+"Rhul-thaun Halflings":-100,
+
+"Common Orcs":-100,
+"Jungle Orcs":-100,
+"Desert Orcs":-100,
+"Skraal":-100,
+"Aquatic Orcs":-100,
+
+"Common Gnolls":-300,
+"Apaloosa":-300,
+"Forest Gnolls":-300,
+
+"Plains Centaurs":100,
+"Forest Centaurs":100,
+"Plains Minotaur":-100,
+"Forest Harpies":-100,
+"Arctic Minotaur":-100,
+"Mountain Harpies":-100,
+"Forest Wargen":100,
+"Plains Wargen":100,
+
+"Nymphs":300,
+"Dryads":300,
+"Nixies":100,
+"Satyrs":200,
+"Sprites":300,
+"LeShay":100,
+"Pixies":300
+}

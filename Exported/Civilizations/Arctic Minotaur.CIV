@@ -1,0 +1,69 @@
+Name:"Arctic Minotaur",
+Category:"Bestial",
+Starting Year:2750,
+Color:{
+Hue:.4375
+Sat:.75
+}
+Aggression:50
+Strength:75
+Population Density:500
+Growth Rate:30
+Max Slope:4
+Min Slope:0
+Max Temperature:50
+Min Temperature:-50
+Max Precipitation:100
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:75
+Slope Importance:10
+Temperature Importance:50
+Precipitation Importance:10
+Elevation Importance:0
+Distance Importance:20
+River Bonus:10
+Sea Bonus:0
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Bretons":-200,
+"Nords":-200,
+"Imperials":-200,
+"Redguard":100,
+"Sand People":-200,
+"Sea Dwellers":-200,
+
+"Wild Elves":-200,
+"Wood Elves":-200,
+"High Elves":-200,
+"Drow":-200,
+"Frost Elves":-300,
+"Gray Elves":-200,
+"Sea Elves":-200,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Rock Gnomes":200,
+"Forest Gnomes":200,
+"Svirfneblin":200,
+
+"Plains Centaurs":-100,
+"Forest Centaurs":-100,
+"Plains Minotaur":400,
+"Forest Wargen":200,
+"Plains Wargen":200
+}

@@ -1,0 +1,82 @@
+Name:"Poison Dusk Lizardfolk",
+Category:"Reptilians",
+Starting Year:1100,
+Color:{
+Hue:.6875
+Sat:.75
+}
+Aggression:30
+Strength:60
+Population Density:500
+Growth Rate:60
+Max Slope:4
+Min Slope:0
+Max Temperature:150
+Min Temperature:50
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:191
+Min Elevation:128
+Desired Distance:60
+Slope Importance:10
+Temperature Importance:20
+Precipitation Importance:30
+Elevation Importance:10
+Distance Importance:30
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Rock
+}
+Relationships:{
+"Troglodytes":100,
+"Viletooth Lizardfolk":300,
+"Blackscale Lizardfolk":300,
+"Common Kobolds":100,
+"Jungle Kobolds":100,
+"Dark Talon Lizardfolk":300,
+"Desert Kobolds":100,
+"Shazak Lizardfolk":300,
+"Arctic Kobolds":100,
+"Quanak Lizardfolk":300,
+"Aquatic Kobolds":100,
+
+"Bretons":-100,
+"Nords":-100,
+"Imperials":-100,
+"Redguard":-100,
+"Sand People":-100,
+"Sea Dwellers":-100,
+
+"Wild Elves":-100,
+"Wood Elves":-100,
+"High Elves":-100,
+"Drow":-100,
+"Frost Elves":-100,
+"Gray Elves":-100,
+"Sea Elves":-100,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Rock Gnomes":-100,
+"Forest Gnomes":-100,
+"Svirfneblin":-100,
+
+"Lightfoot Halflings":-100,
+"Tallfellow Halflings":-100,
+"Rhulisti Halflings":-100,
+"Deep Halflings":-100,
+"Rhul-thaun Halflings":-100
+}

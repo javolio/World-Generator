@@ -1,0 +1,111 @@
+Name:"Rhulisti Halflings",
+Category:"Halflings",
+Starting Year:3100,
+Color:{
+Hue:.90625
+Sat:1
+}
+Aggression:10
+Strength:50
+Population Density:750
+Growth Rate:50
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:191
+Min Elevation:128
+Desired Distance:40
+Slope Importance:10
+Temperature Importance:10
+Precipitation Importance:10
+Elevation Importance:20
+Distance Importance:10
+River Bonus:10
+Sea Bonus:40
+Delta Bonus:40
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Rock
+}
+Relationships:{
+"Goblins":100,
+"Hobgoblins":100,
+"Bugbears":100,
+"Blues":100,
+
+"Troglodytes":100,
+"Viletooth Lizardfolk":100,
+"Blackscale Lizardfolk":100,
+"Poison Dusk Lizardfolk":100,
+"Common Kobolds":100,
+"Jungle Kobolds":100,
+"Dark Talon Lizardfolk":100,
+"Desert Kobolds":100,
+"Shazak Lizardfolk":100,
+"Arctic Kobolds":100,
+"Quanak Lizardfolk":100,
+"Aquatic Kobolds":100,
+
+"Common Orcs":100,
+"Jungle Orcs":100,
+"Desert Orcs":100,
+"Aquatic Orcs":100,
+
+"Common Gnolls":100,
+"Apaloosa":100,
+"Forest Gnolls":100,
+
+"Bretons":200,
+"Nords":200,
+"Imperials":200,
+"Redguard":200,
+"Sand People":200,
+"Sea Dwellers":200,
+
+"Wild Elves":200,
+"Wood Elves":200,
+"High Elves":200,
+"Drow":200,
+"Frost Elves":200,
+"Gray Elves":200,
+"Sea Elves":200,
+
+"Hill Dwarves":200,
+"Mountain Dwarves":200,
+"Savasi":200,
+"Deep Dwarves":200,
+
+"Rock Gnomes":200,
+"Forest Gnomes":200,
+"Svirfneblin":200,
+
+"Lightfoot Halflings":500,
+"Tallfellow Halflings":500,
+"Deep Halflings":500,
+"Rhul-thaun Halflings":200,
+
+"Maenads":100,
+"Locathah":100,
+"Merfolk":100,
+"Sahuagin":100,
+
+"Plains Centaurs":100,
+"Forest Centaurs":100,
+
+"Nymphs":300,
+"Dryads":300,
+"Nixies":300,
+"Satyrs":300,
+"Sprites":300,
+"LeShay":300,
+"Pixies":300
+}

@@ -1,0 +1,75 @@
+Name:"Deep Halflings",
+Category:"Halflings",
+Starting Year:3800,
+Color:{
+Hue:.625
+Sat:.25
+}
+Aggression:20
+Strength:40
+Population Density:750
+Growth Rate:40
+Max Slope:20
+Min Slope:0
+Max Temperature:125
+Min Temperature:0
+Max Precipitation:75
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:192
+Desired Distance:70
+Slope Importance:0
+Temperature Importance:10
+Precipitation Importance:30
+Elevation Importance:40
+Distance Importance:20
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Taiga,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Bretons":100,
+"Nords":100,
+"Imperials":100,
+"Redguard":100,
+"Sand People":100,
+"Sea Dwellers":100,
+
+"Wild Elves":200,
+"Wood Elves":200,
+"High Elves":100,
+"Drow":100,
+"Frost Elves":200,
+"Gray Elves":100,
+"Sea Elves":200,
+
+"Hill Dwarves":100,
+"Mountain Dwarves":100,
+"Savasi":100,
+"Deep Dwarves":300,
+
+"Rock Gnomes":200,
+"Forest Gnomes":200,
+"Svirfneblin":400,
+
+"Lightfoot Halflings":400,
+"Tallfellow Halflings":400,
+"Rhulisti Halflings":500,
+"Rhul-thaun Halflings":100,
+
+"Nymphs":200,
+"Dryads":200,
+"Nixies":200,
+"Satyrs":200,
+"Sprites":200,
+"LeShay":200,
+"Pixies":200
+}

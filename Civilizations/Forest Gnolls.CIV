@@ -1,0 +1,74 @@
+Name:"Forest Gnolls",
+Category:"Gnolls",
+Starting Year:1950,
+Color:{
+Hue:.5625
+Sat:.25
+}
+Aggression:50
+Strength:40
+Population Density:850
+Growth Rate:75
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:255
+Min Elevation:0
+Desired Distance:40
+Slope Importance:30
+Temperature Importance:10
+Precipitation Importance:30
+Elevation Importance:0
+Distance Importance:20
+River Bonus:10
+Sea Bonus:0
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Rock
+}
+Relationships:{
+"Common Orcs":-200,
+"Jungle Orcs":-200,
+"Desert Orcs":-200,
+"Skraal":-200,
+"Aquatic Orcs":-200,
+
+"Common Gnolls":300,
+"Apaloosa":300,
+
+"Bretons":-100,
+"Nords":-100,
+"Imperials":-100,
+"Redguard":-100,
+"Sand People":-100,
+"Sea Dwellers":-100,
+
+"Wild Elves":-100,
+"Wood Elves":-100,
+"High Elves":-100,
+"Drow":-100,
+"Frost Elves":-100,
+"Gray Elves":-100,
+"Sea Elves":-100,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Plains Centaurs":-200,
+"Forest Centaurs":-200,
+"Forest Wargen":-500,
+"Plains Wargen":-300
+}

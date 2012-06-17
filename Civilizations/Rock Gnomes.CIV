@@ -1,0 +1,72 @@
+Name:"Rock Gnomes",
+Category:"Gnomes",
+Starting Year:1200,
+Color:{
+Hue:.375
+Sat:.5
+}
+Aggression:30
+Strength:60
+Population Density:1500
+Growth Rate:70
+Max Slope:4
+Min Slope:0
+Max Temperature:100
+Min Temperature:0
+Max Precipitation:75
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:192
+Desired Distance:40
+Slope Importance:10
+Temperature Importance:10
+Precipitation Importance:20
+Elevation Importance:30
+Distance Importance:20
+River Bonus:10
+Sea Bonus:0
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Taiga,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Troglodytes":-200,
+"Common Kobolds":-400,
+"Jungle Kobolds":-400,
+"Desert Kobolds":-400,
+"Arctic Kobolds":-400,
+"Aquatic Kobolds":-400,
+
+"Bretons":100,
+"Nords":100,
+"Imperials":100,
+"Redguard":100,
+"Sand People":100,
+"Sea Dwellers":100,
+
+"Hill Dwarves":100,
+"Mountain Dwarves":200,
+"Savasi":100,
+"Deep Dwarves":100,
+"Duergar":-100,
+
+"Forest Gnomes":500,
+"Svirfneblin":500,
+
+"Lightfoot Halflings":100,
+"Tallfellow Halflings":100,
+"Rhulisti Halflings":100,
+"Deep Halflings":100,
+"Rhul-thaun Halflings":-100,
+
+"Plains Minotaur":300,
+"Forest Harpies":-100,
+"Arctic Minotaur":300,
+"Mountain Harpies":-100
+}

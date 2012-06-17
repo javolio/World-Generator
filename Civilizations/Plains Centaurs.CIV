@@ -1,0 +1,83 @@
+Name:"Plains Centaurs",
+Category:"Bestial",
+Starting Year:750,
+Color:{
+Hue:.125
+Sat:.25
+}
+Aggression:25
+Strength:70
+Population Density:250
+Growth Rate:35
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:25
+Max Precipitation:75
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0
+Desired Distance:60
+Slope Importance:10
+Temperature Importance:30
+Precipitation Importance:10
+Elevation Importance:0
+Distance Importance:20
+River Bonus:30
+Sea Bonus:0
+Delta Bonus:30
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+}
+Relationships:{
+"Common Gnolls":-300,
+"Apaloosa":-300,
+"Forest Gnolls":-300,
+
+"Bretons":100,
+"Nords":-100,
+"Imperials":-100,
+"Redguard":-100,
+"Sand People":-100,
+"Sea Dwellers":-100,
+
+"Wild Elves":300,
+"Wood Elves":300,
+"High Elves":100,
+"Drow":100,
+"Frost Elves":300,
+"Gray Elves":100,
+"Sea Elves":300,
+
+"Savasi":200,
+"Duergar":-200,
+
+"Lightfoot Halflings":100,
+"Tallfellow Halflings":100,
+"Rhulisti Halflings":100,
+"Deep Halflings":100,
+"Rhul-thaun Halflings":-200,
+
+"Forest Centaurs":400,
+"Plains Minotaur":-100,
+"Forest Harpies":-100,
+"Arctic Minotaur":-100,
+"Mountain Harpies":-100,
+"Forest Wargen":-100,
+"Plains Wargen":-100,
+
+"Nymphs":200,
+"Dryads":200,
+"Nixies":200,
+"Satyrs":400,
+"Sprites":200,
+"LeShay":200,
+"Pixies":200
+}

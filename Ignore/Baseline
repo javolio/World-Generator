@@ -1,0 +1,15 @@
+
+Aggression:0-100 (50 is average)
+Strength:0-100 (50 is average)
+Population Density:1500+ is dense, 500- is sparse
+Growth Rate:100 is very high
+Max Slope:5 is too steep for trees
+Min Slope:0, typically
+Max Temperature:125
+Min Temperature:-25
+Max Precipitation:100 (the precipitation of the oceans)
+Min Precipitation:0
+Max Elevation:255
+Min Elevation:0 (192 is mountains)
+Desired Distance:30 is close, 100 is far
+Slope Importance, Temperature Importance, Precipitation Importance, Elevation Importance, Distance Importance, and the greatest of River Bonus, Sea Bonus, and Delta Bonus must add to 100

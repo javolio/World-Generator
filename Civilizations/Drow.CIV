@@ -1,0 +1,74 @@
+Name:"Drow",
+Category:"Elves",
+Starting Year:1200,
+Color:{
+Hue:.75
+Sat:.5
+}
+Aggression:40
+Strength:60
+Population Density:500
+Growth Rate:40
+Max Slope:20
+Min Slope:0
+Max Temperature:100
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:25
+Max Elevation:255
+Min Elevation:0
+Desired Distance:100
+Slope Importance:0
+Temperature Importance:10
+Precipitation Importance:10
+Elevation Importance:0
+Distance Importance:50
+River Bonus:20
+Sea Bonus:10
+Delta Bonus:30
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga
+}
+Relationships:{
+"Troglodytes":-300,
+"Viletooth Lizardfolk":-100,
+"Blackscale Lizardfolk":-100,
+"Poison Dusk Lizardfolk":-100,
+"Common Kobolds":-100,
+"Jungle Kobolds":-100,
+"Dark Talon Lizardfolk":-100,
+"Desert Kobolds":-100,
+"Shazak Lizardfolk":-100,
+"Arctic Kobolds":-100,
+"Quanak Lizardfolk":-100,
+"Aquatic Kobolds":-100,
+
+"Common Orcs":-100,
+"Jungle Orcs":-100,
+"Desert Orcs":-100,
+"Skraal":-300,
+"Aquatic Orcs":-100,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"High Elves":-600,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-200,
+"Duergar":-300,
+
+"Svirfneblin":100,
+
+"Deep Halflings":100,
+
+"Plains Centaurs":200,
+"Forest Centaurs":200,
+}

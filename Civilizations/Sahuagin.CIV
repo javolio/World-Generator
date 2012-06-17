@@ -1,0 +1,54 @@
+Name:"Sahuagin",
+Category:"Aquatic",
+Starting Year:2375,
+Color:{
+Hue:.3125
+Sat:1
+}
+Aggression:70
+Strength:60
+Population Density:1000
+Growth Rate:70
+Max Slope:20
+Min Slope:0
+Max Temperature:125
+Min Temperature:25
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:127
+Min Elevation:0
+Desired Distance:40
+Slope Importance:0
+Temperature Importance:50
+Precipitation Importance:0
+Elevation Importance:20
+Distance Importance:30
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Aquatic Kobolds":200,
+
+"Aquatic Orcs":200,
+
+"Sea Dwellers":-300,
+
+"Sea Elves":-600,
+
+"Maenads":100,
+"Locathah":100,
+"Merfolk":100,
+
+"LeShay":-200
+}

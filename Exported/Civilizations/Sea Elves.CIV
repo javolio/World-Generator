@@ -1,0 +1,120 @@
+Name:"Sea Elves",
+Category:"Elves",
+Starting Year:2900,
+Color:{
+Hue:.9375
+Sat:.5
+}
+Aggression:40
+Strength:70
+Population Density:500
+Growth Rate:40
+Max Slope:20
+Min Slope:0
+Max Temperature:125
+Min Temperature:0
+Max Precipitation:100
+Min Precipitation:100
+Max Elevation:255
+Min Elevation:0
+Desired Distance:60
+Slope Importance:0
+Temperature Importance:30
+Precipitation Importance:0
+Elevation Importance:0
+Distance Importance:70
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Goblins":-100,
+"Hobgoblins":-100,
+"Bugbears":-100,
+"Blues":-100,
+
+"Troglodytes":-100,
+"Viletooth Lizardfolk":-100,
+"Blackscale Lizardfolk":-100,
+"Poison Dusk Lizardfolk":-100,
+"Common Kobolds":-100,
+"Jungle Kobolds":-100,
+"Dark Talon Lizardfolk":-100,
+"Desert Kobolds":-100,
+"Shazak Lizardfolk":-100,
+"Arctic Kobolds":-100,
+"Quanak Lizardfolk":-100,
+"Aquatic Kobolds":-100,
+
+"Common Orcs":-200,
+"Jungle Orcs":-200,
+"Desert Orcs":-200,
+"Skraal":-200,
+"Aquatic Orcs":-400,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"Bretons":100,
+"Nords":100,
+"Imperials":100,
+"Redguard":100,
+"Sand People":100,
+"Sea Dwellers":100,
+
+"Wild Elves":100,
+"Wood Elves":100,
+"High Elves":100,
+"Frost Elves":100,
+"Gray Elves":100,
+"Sea Elves":100,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Rock Gnomes":100,
+"Forest Gnomes":100,
+"Svirfneblin":100,
+
+"Lightfoot Halflings":100,
+"Tallfellow Halflings":100,
+"Rhulisti Halflings":100,
+"Deep Halflings":100,
+"Rhul-thaun Halflings":-100,
+
+"Maenads":200,
+"Locathah":200,
+"Merfolk":300,
+"Sahuagin":-600,
+
+"Plains Centaurs":100,
+"Forest Centaurs":100,
+"Plains Minotaur":-100,
+"Forest Harpies":-100,
+"Arctic Minotaur":-100,
+"Mountain Harpies":-100,
+"Forest Wargen":-100,
+"Plains Wargen":-100,
+
+"Nymphs":300,
+"Dryads":200,
+"Nixies":600,
+"Satyrs":200,
+"Sprites":200,
+"LeShay":600,
+"Pixies":200
+}

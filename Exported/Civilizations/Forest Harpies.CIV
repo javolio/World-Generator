@@ -1,0 +1,67 @@
+Name:"Forest Harpies",
+Category:"Bestial",
+Starting Year:2450,
+Color:{
+Hue:.0625
+Sat:.5
+}
+Aggression:60
+Strength:40
+Population Density:300
+Growth Rate:40
+Max Slope:4
+Min Slope:0
+Max Temperature:125
+Min Temperature:50
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:255
+Min Elevation:0
+Desired Distance:100
+Slope Importance:20
+Temperature Importance:20
+Precipitation Importance:10
+Elevation Importance:0
+Distance Importance:50
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Desert,
+Grassland,
+Rock
+}
+Relationships:{
+"Bretons":-100,
+"Nords":-100,
+"Imperials":-100,
+"Redguard":-100,
+"Sand People":-100,
+"Sea Dwellers":-100,
+
+"Wild Elves":-100,
+"Wood Elves":-100,
+"High Elves":-100,
+"Drow":-100,
+"Frost Elves":-100,
+"Gray Elves":-100,
+"Sea Elves":-100,
+
+"Hill Dwarves":-100,
+"Mountain Dwarves":-100,
+"Savasi":-100,
+"Deep Dwarves":-100,
+"Duergar":-100,
+
+"Plains Centaurs":-100,
+"Forest Centaurs":-100,
+"Plains Minotaur":-100,
+"Arctic Minotaur":-100,
+"Mountain Harpies":300,
+"Forest Wargen":100,
+"Plains Wargen":100
+}

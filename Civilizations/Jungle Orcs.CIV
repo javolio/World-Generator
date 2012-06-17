@@ -1,0 +1,84 @@
+Name:"Jungle Orcs",
+Category:"Orcs",
+Starting Year:1825,
+Color:{
+Hue:.875
+Sat:.5
+}
+Aggression:80
+Strength:60
+Population Density:1000
+Growth Rate:50
+Max Slope:3
+Min Slope:0
+Max Temperature:125
+Min Temperature:50
+Max Precipitation:100
+Min Precipitation:50
+Max Elevation:191
+Min Elevation:128
+Desired Distance:90
+Slope Importance:10
+Temperature Importance:10
+Precipitation Importance:10
+Elevation Importance:30
+Distance Importance:30
+River Bonus:10
+Sea Bonus:10
+Delta Bonus:10
+Restricted Biomes:{
+Sea,
+River,
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Rock
+}
+Relationships:{
+"Goblins":300,
+"Hobgoblins":200,
+"Bugbears":200,
+"Blues":200,
+
+"Troglodytes":-100,
+
+"Common Orcs":300,
+"Desert Orcs":300,
+"Skraal":100,
+"Aquatic Orcs":300,
+
+"Common Gnolls":-100,
+"Apaloosa":-100,
+"Forest Gnolls":-100,
+
+"Redguard":-500,
+
+"Wild Elves":-300,
+"Wood Elves":-500,
+"High Elves":-500,
+"Drow":-100,
+"Frost Elves":-300,
+"Gray Elves":-300,
+"Sea Elves":-300,
+
+"Hill Dwarves":-200,
+"Mountain Dwarves":-200,
+"Savasi":-200,
+"Deep Dwarves":-200,
+"Duergar":-200,
+
+"Rock Gnomes":-200,
+"Forest Gnomes":-200,
+"Svirfneblin":-200,
+
+"Lightfoot Halflings":-200,
+"Tallfellow Halflings":-200,
+"Rhulisti Halflings":-200,
+"Deep Halflings":-200,
+"Rhul-thaun Halflings":-200,
+
+"Plains Centaurs":-400,
+"Forest Centaurs":-600
+}

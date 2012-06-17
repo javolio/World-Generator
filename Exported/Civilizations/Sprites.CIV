@@ -1,0 +1,71 @@
+Name:"Sprites",
+Category:"Fey",
+Starting Year:1150,
+Color:{
+Hue:.9375
+Sat:1
+}
+Aggression:25
+Strength:85
+Population Density:100
+Growth Rate:5
+Max Slope:7
+Min Slope:0
+Max Temperature:125
+Min Temperature:0
+Max Precipitation:100
+Min Precipitation:25
+Max Elevation:255
+Min Elevation:128
+Desired Distance:60
+Slope Importance:10
+Temperature Importance:10
+Precipitation Importance:20
+Elevation Importance:10
+Distance Importance:50
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Ice,
+Tundra,
+Desert,
+Rock
+}
+Relationships:{
+"Bretons":500,
+"Nords":500,
+"Redguard":500,
+"Sand People":500,
+"Sea Dwellers":500,
+
+"Wild Elves":500,
+"Wood Elves":500,
+"High Elves":750,
+"Drow":500,
+"Frost Elves":500,
+"Gray Elves":500,
+"Sea Elves":500,
+
+"Lightfoot Halflings":500,
+"Tallfellow Halflings":500,
+"Rhulisti Halflings":500,
+"Deep Halflings":500,
+
+"Plains Centaurs":500,
+"Forest Centaurs":500,
+"Plains Minotaur":500,
+"Forest Harpies":500,
+"Arctic Minotaur":500,
+"Mountain Harpies":500,
+"Forest Wargen":500,
+"Plains Wargen":500,
+
+"Nymphs":1000,
+"Dryads":1000,
+"Nixies":1000,
+"Satyrs":1000,
+"Sprites":1000,
+"LeShay":1000,
+"Pixies":1000
+}

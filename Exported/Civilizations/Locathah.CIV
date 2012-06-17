@@ -1,0 +1,52 @@
+Name:"Locathah",
+Category:"Aquatic",
+Starting Year:700,
+Color:{
+Hue:.4375
+Sat:1
+}
+Aggression:40
+Strength:50
+Population Density:1000
+Growth Rate:60
+Max Slope:20
+Min Slope:0
+Max Temperature:75
+Min Temperature:0
+Max Precipitation:100
+Min Precipitation:100
+Max Elevation:127
+Min Elevation:-128
+Desired Distance:60
+Slope Importance:0
+Temperature Importance:25
+Precipitation Importance:0
+Elevation Importance:50
+Distance Importance:25
+River Bonus:0
+Sea Bonus:0
+Delta Bonus:0
+Restricted Biomes:{
+Ice,
+Tundra,
+Taiga,
+Desert,
+Grassland,
+Coniferous Forest,
+Mixed Forest,
+Broadleaf Forest,
+Rock
+}
+Relationships:{
+"Sea Dwellers":100,
+
+"Sea Elves":100,
+
+"Maenads":100,
+"Merfolk":100,
+"Sahuagin":100,
+
+"Nymphs":100,
+"Nixies":100,
+"LeShay":100
+}
