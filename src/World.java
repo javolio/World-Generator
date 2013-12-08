@@ -28,7 +28,7 @@ public class World implements Runnable {
 	public World(int seed,int width,int height) {
 		WIDTH=width;
 		HEIGHT=height;
-		OFFSET=Math.min(WIDTH,HEIGHT)/POINTS;
+		OFFSET=Math.max(Math.min(WIDTH,HEIGHT)/POINTS,1);
 		SEED=seed;
 		map=new Point[WIDTH][HEIGHT];
 		CIVS=new ArrayList<Civilization>();
