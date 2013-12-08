@@ -20,7 +20,7 @@ public class PrecipPanel extends JPanel {
 		//page.drawRect(0,0,50,50);
 		for (int y1=0;y1<w.HEIGHT;y1++)
 			for (int x1=0;x1<w.WIDTH;x1++) {
-				page.setColor(Color.getHSBColor((float) (w.map[x1][y1].precipitation*2.)/255,1,(float) .5));
+				page.setColor(Color.getHSBColor((float) (w.map[x1][y1].precipitation*100/w.PRECIPRANGE*2.)/255,1,(float) .5));
 				page.fillRect((int) (x1*SCALE),(int) (y1*SCALE),(int) SCALE,(int) SCALE);
 			}
 	}

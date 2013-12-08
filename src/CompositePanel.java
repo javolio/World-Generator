@@ -14,7 +14,7 @@ public class CompositePanel extends JPanel implements Runnable {
 	public CompositePanel(World w) {
 		this.w=w;
 		W=(int) (1.*w.WIDTH*H/w.HEIGHT);
-		DELTA=255/w.RANGE;
+		DELTA=255/w.ZRANGE;
 		SCALE=1.*H/w.HEIGHT;
 		setPreferredSize(new Dimension(W,H));
 		year=w.year;
