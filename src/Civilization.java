@@ -51,7 +51,7 @@ public class Civilization implements Comparable<Civilization> {
 		alive=false;
 		started=false;
 	}*/
-
+	
 	public Civilization(World w) {
 		WORLD=w;
 		cities=new ArrayList<City>();
@@ -89,7 +89,7 @@ public class Civilization implements Comparable<Civilization> {
 			pref+=(x<=0?x:-x)+tempWeight;
 		}
 		if (precipWeight!=0) {
-			int t=p.precipitation;
+			int t=p.precipitation*100/WORLD.PRECIPRANGE;
 			if (t<minPrecip||t>maxPrecip)
 				return -1;
 			int x=2*precipWeight/(maxPrecip-minPrecip)*(t-minPrecip)-precipWeight;
@@ -154,7 +154,7 @@ public class Civilization implements Comparable<Civilization> {
 			pref+=(x<=0?x:-x)+tempWeight;
 		}
 		if (precipWeight!=0) {
-			int t=p.precipitation;
+			int t=p.precipitation*100/WORLD.PRECIPRANGE;
 			if (t<minPrecip||t>maxPrecip)
 				return -1;
 			int x=2*precipWeight/(maxPrecip-minPrecip)*(t-minPrecip)-precipWeight;
@@ -206,7 +206,7 @@ public class Civilization implements Comparable<Civilization> {
 			pref+=(x<=0?x:-x)+tempWeight;
 		}
 		if (precipWeight!=0) {
-			int t=p.precipitation;
+			int t=p.precipitation*100/WORLD.PRECIPRANGE;
 			if (t<minPrecip||t>maxPrecip)
 				return -1;
 			int x=2*precipWeight/(maxPrecip-minPrecip)*(t-minPrecip)-precipWeight;
