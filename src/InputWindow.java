@@ -1,4 +1,5 @@
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -87,6 +88,8 @@ public class InputWindow extends JFrame implements ActionListener {
 					panel.add(new ButtonPanel(p,world),BorderLayout.SOUTH);
 					frame.pack();
 					frame.setVisible(true);
+					frame.setSize(new Dimension(SwitchablePanel.WIDTH+6,SwitchablePanel.HEIGHT+132));
+					frame.setResizable(false);
 					setVisible(false);
 					dispose();
 				}

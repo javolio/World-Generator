@@ -5,6 +5,7 @@ import javax.swing.*;
 //The visualizer
 @SuppressWarnings("serial")
 public class SwitchablePanel extends JPanel implements Runnable {
+	public static final int WIDTH=600,HEIGHT=600;
 	private World w;
 	private int year;
 	private Display mode;
@@ -19,6 +20,8 @@ public class SwitchablePanel extends JPanel implements Runnable {
 		civs=true;
 		grid=true;
 		drawViews();
+		setPreferredSize(new Dimension(WIDTH,HEIGHT));
+		repaint();
 		new Thread(this).start();
 	}
 	
@@ -220,40 +223,40 @@ public class SwitchablePanel extends JPanel implements Runnable {
 	public void paintComponent(Graphics page) {
 		switch (mode) {
 		case CIVLIST:
-			page.drawImage(civlist,0,0,null);
+			page.drawImage(civlist,0,0,WIDTH,HEIGHT,null);
 			break;
 		case HEIGHT:
-			page.drawImage(height,0,0,null);
+			page.drawImage(height,0,0,WIDTH,HEIGHT,null);
 			break;
 		case PRECIPITATION:
-			page.drawImage(precipitation,0,0,null);
+			page.drawImage(precipitation,0,0,WIDTH,HEIGHT,null);
 			break;
 		case TEMPERATURE:
-			page.drawImage(temperature,0,0,null);
+			page.drawImage(temperature,0,0,WIDTH,HEIGHT,null);
 			break;
 		case BIOME:
-			page.drawImage(biome,0,0,null);
+			page.drawImage(biome,0,0,WIDTH,HEIGHT,null);
 			break;
 		case SETTLEMENT:
-			page.drawImage(settlement,0,0,null);
+			page.drawImage(settlement,0,0,WIDTH,HEIGHT,null);
 			break;
 		case SLOPE:
-			page.drawImage(slope,0,0,null);
+			page.drawImage(slope,0,0,WIDTH,HEIGHT,null);
 			break;
 		case WATER:
-			page.drawImage(water,0,0,null);
+			page.drawImage(water,0,0,WIDTH,HEIGHT,null);
 			break;
 		case COMPOSITE:
 		default:
-			page.drawImage(composite,0,0,null);
+			page.drawImage(composite,0,0,WIDTH,HEIGHT,null);
 			break;
 		}
 		if (civs&&mode!=Display.CIVLIST||mode==Display.SETTLEMENT) {
 			drawCities();
-			page.drawImage(cities,0,0,null);
+			page.drawImage(cities,0,0,WIDTH,HEIGHT,null);
 		}
 		if (grid&&mode!=Display.CIVLIST) {
-			page.drawImage(gridline,0,0,null);
+			page.drawImage(gridline,0,0,WIDTH,HEIGHT,null);
 		}
 	}
 	
