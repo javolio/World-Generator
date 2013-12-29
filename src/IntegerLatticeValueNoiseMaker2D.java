@@ -2,12 +2,12 @@
 
 import java.util.Random;
 
-public abstract class NoiseMaker2D {
+public class IntegerLatticeValueNoiseMaker2D {
 	public final long SEED;
 	public static final int RANDRANGE=0x400000;
 	private int[] values;
 	
-	public NoiseMaker2D(long seed) {
+	public IntegerLatticeValueNoiseMaker2D(long seed) {
 		SEED=seed;
 		
 		//Force uniform distribution by having every number
@@ -26,7 +26,7 @@ public abstract class NoiseMaker2D {
 		}
 	}
 	
-	public double get(double x,double y) {
-		return (double) values[(values[(int) x%RANDRANGE]+(int) y)%RANDRANGE]/RANDRANGE; // [0, 1)
+	public double get(int x,int y) {
+		return (double) values[(values[x%RANDRANGE]+y)%RANDRANGE]/(RANDRANGE-1); // [0, 1)
 	}
 }

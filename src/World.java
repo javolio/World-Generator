@@ -22,7 +22,7 @@ public class World implements Runnable {
 	protected JButton[] controllers;
 	protected String history;
 	protected Random generator;
-	protected AvolioNoiseMaker2D elevationNoiseMaker;
+	protected VariableOctaveSpectralSynthesisNoiseMaker2D elevationNoiseMaker;
 	
 	//Initialize the world, but don't map anything
 	public World(int seed,int width,int height) {
@@ -38,7 +38,7 @@ public class World implements Runnable {
 		year=0;
 		history="";
 		generator=new Random(seed);
-		elevationNoiseMaker=new AvolioNoiseMaker2D(generator.nextLong(),8,8,new CosineInterpolatedNoiseMaker2D(generator.nextLong()));
+		elevationNoiseMaker=new VariableOctaveSpectralSynthesisNoiseMaker2D(new CosineInterpolatedIntegerLatticeValueNoiseMaker2D(new IntegerLatticeValueNoiseMaker2D(generator.nextLong())),new CosineInterpolatedIntegerLatticeValueNoiseMaker2D(new IntegerLatticeValueNoiseMaker2D(generator.nextLong())),8,8);
 	}
 	
 	public void setControllers(JButton[] c) {
